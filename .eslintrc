@@ -1,0 +1,60 @@
+{
+  "root": true,
+  "env": {
+    "browser": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "semi": ["warn", "always", { "omitLastInOneLineBlock": true }],
+    "no-multiple-empty-lines": ["warn", { "max": 2, "maxEOF": 0, "maxBOF": 0 }],
+    "quotes": ["warn", "double", { "avoidEscape": true }],
+    "camelcase": ["warn", { "properties": "always" }],
+    "curly": ["warn", "multi-or-nest"],
+    "comma-dangle": ["warn", "never"],
+    "one-var": ["warn", "consecutive"],
+    "linebreak-style": ["warn", "unix"],
+    "prefer-const": "error",
+    "no-multi-spaces": "error",
+    "object-shorthand": "error",
+    "quote-props": ["error", "as-needed"],
+    "prefer-destructuring": "warn",
+    "prefer-template": "warn",
+    "space-before-blocks": ["error", "always"],
+    "space-infix-ops": "warn",
+    "func-call-spacing": ["error", "never"],
+    "key-spacing": ["warn", { "beforeColon": false }],
+    "dot-notation": "error",
+    "no-case-declarations": "error",
+    "brace-style": "error",
+    "template-curly-spacing": "warn",
+    "no-console": "error",
+    "no-var": "error",
+    "no-restricted-syntax": [
+      "error",
+      {
+        "selector": "TSEnumDeclaration[const=true]",
+        "message": "Usage of const enums is forbidden."
+      }
+    ],
+    "@typescript-eslint/no-explicit-any": "error",
+    "no-eval": "warn",
+    "no-undefined": "error",
+    "no-eq-null": "error",
+    "@typescript-eslint/array-type": ["error", { "default": "array" }],
+    "no-lonely-if": "error",
+    "prettier/prettier": "error",
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off",
+    "no-one-time-vars/no-one-time-vars": 2,
+    "radix": "off"
+  },
+  "reportUnusedDisableDirectives": true,
+  "noInlineConfig": false,
+  "plugins": ["@typescript-eslint", "prettier", "no-one-time-vars"]
+}
