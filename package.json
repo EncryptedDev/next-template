@@ -9,7 +9,7 @@
     "lint:ci": "eslint . && prettier **/*.ts **/{metadata,tsconfig}.json"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.0",
+    "autoprefixer": "^10.4.2",
     "next": "12.0.7",
     "postcss": "^8.4.5",
     "react": "17.0.2",
