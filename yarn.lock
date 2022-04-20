@@ -860,10 +860,10 @@ eslint-plugin-jsx-a11y@6.5.1:
     language-tags "^1.0.5"
     minimatch "^3.0.4"
 
-eslint-plugin-no-one-time-vars@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-no-one-time-vars/-/eslint-plugin-no-one-time-vars-2.2.0.tgz#e86f107b0696dab62b8801e06e02725f15d98dae"
-  integrity sha512-wV0L0J0b0mMzoAP74+sWoL8QZC5LEAzzvm73khuWADXar9HrjU/Ja27K6tXevxJvRurIeZswtV7Or4Y4u9Vddw==
+eslint-plugin-no-one-time-vars@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-no-one-time-vars/-/eslint-plugin-no-one-time-vars-2.4.1.tgz#67656d5038718a83868ba956a609220e2222fce2"
+  integrity sha512-52IEHB8ekCiG3frIuQ0RiO/TNUltPZ76GxEoBAHwDkMXcVzOeHd7woPtMd87aYshsk8NIEInLNsaoPnCLZ5Cog==
   dependencies:
     requireindex "^1.2.0"
 
